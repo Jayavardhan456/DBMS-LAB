@@ -23,9 +23,9 @@ ADD CONSTRAINT fk_year
 FOREIGN KEY (year_id)
 REFERENCES Financial_year(year_id);
 
-UPDATE Income_Record SET category_id=1 WHERE income_id = 1001;
-UPDATE Income_Record SET year_id=2001 WHERE income_id = 1001;
-UPDATE Income_Record SET category_id=2 WHERE income_id = 1002;
-UPDATE Income_Record SET year_id=2002 WHERE income_id = 1002;
-UPDATE Income_Record SET category_id=3 WHERE income_id = 1003;
-UPDATE Income_Record SET year_id=2003 WHERE income_id = 1003;
+UPDATE Income_Record SET year_id = 1,category_id=1 WHERE taxpayer_id = 101;
+UPDATE Income_Record SET year_id = 2,category_id=2 WHERE taxpayer_id = 102;
+UPDATE Income_Record SET year_id = 3,category_id=3 WHERE taxpayer_id = 103;
+UPDATE Income_Record SET year_id = 4,category_id=4 WHERE taxpayer_id = 104;
+UPDATE Income_Record SET year_id = 5,category_id=5 WHERE taxpayer_id = 105;
+UPDATE Income_Record SET year_id = 6,category_id=6 WHERE taxpayer_id = 106;

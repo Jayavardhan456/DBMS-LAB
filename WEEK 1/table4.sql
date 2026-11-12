@@ -20,5 +20,8 @@ VALUES
 (1006,106,'Professional Consultanting','Business',1500000.00,'2026-03-31','2025-2026');
 
 SELECT * FROM Income_Record;
-ALTER TABLE Income_Record ADD Rental_Income INT NOT NULL;
-ALTER TABLE Income_Record ADD remarks INT NOT NULL;                                  
+--ALTER TABLE Income_Record ADD Rental_Income INT NOT NULL;
+
+--ALTER TABLE Income_Record
+--DROP COLUMN Rental_Income;
+--ALTER TABLE Income_Record ADD remarks ADD remarks VARCHAR(20);                                  
